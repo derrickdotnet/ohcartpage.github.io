@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>0&H Cart Page v.0.0</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+<!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+<!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Raleway:wght@500&display=swap" rel="stylesheet"><!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+
+</head>
+
+<body>
+<!-- Order Summary
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+<div class="main-container">
+<div class="container" >
+<div class="row">
+<div class="one.columns">
+
+<section class="summary-container">
+  <article>
+    <div>
+      <a href="#"><span>Sign In</span> & Checkout</a>
+      <a href="#"><span>Checkout</span> as Guest</a>
+    </div>
+  </article>
+  <div>Your Order</div>
+  <div>Order Total: $85</div>
+  <div class="ship-estimate">
+    <p>Product Subtoal:  $75</p>
+    <p>Estimated shipping cost:  $10</p>
+    <p>Estimated ship-to total :  $85</p>
+  </div>
+
+</div>
+</section>
+<a href="#" class="shopping-top">Continue Shopping</a>
+
+</div>
+
+<!-- Checkout Buttons
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<aside>
+  <div>
+    <a href="#"><span>Sign In</span> & Checkout</a>
+    <a href="#"><span>Checkout</span> as Guest</a>
+  </div>
+</aside>
+<!-- Orders & Prices Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+<div class="container" >
+<div class="row">
+<div class="one.columns">
+  <section class="order-wrapper">
+    <div class="customer"><span class="edit"><a href="#">Edit</a></span>Your Order <span class="arrow1"></span> </div>
+    <div class="order-total">Order Total: $75</div>
+    <div class="order" id="dummy">
+    <div class="item-visual">
+      <img src="images/apple-kringle.jpg" alt="O&H Bakery Apple Kringle">
+      <p class="item-title-2">Apple Kringle, ($20)</p>
+      <p class="item-number">Item #: 1142</p>
+    </div>
+    <div class="interactions">
+      <p class="item-title">Apple Kringle, ($20)</p>
+<select id="amount">
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+  <option value="4">4</option>
+  <option value="5">5</option>
+  <option value="6">6</option>
+  <option value="7">7</option>
+  <option value="8">8</option>
+  <option value="9">9</option>
+  <option value="10">10</option>
+  <option value="11">11</option>
+  <option value="12">12</option>
+  <option value="12">13</option>
+</select>
+<label for="amount"><p>Total: $20 </p></label>
+
+      <!-- <p for="fname"> Total:</p>
+      <input type="text" id="fname" name="fname"> -->
+      <a href="#"><p>
+        <input type="submit" value="Remove DUMMY" onclick="removeDummy(); "/>
+        Remove</p>
+      </a>
+    </div>
+    <div class="item-description">
+      <ul>
+        <li>“Lorem ipsum dolor sit amet."</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="order" id="dummy">
+  <div class="item-visual">
+    <img src="images/cherry-kringle.jpg" alt="O&H Bakery Apple Kringle">
+    <p class="item-title-2">Cherry Kringle, ($25)</p>
+    <p class="item-number">Item #: 1142</p>
+  </div>
+  <div class="interactions">
+    <p class="item-title">Cherry Kringle, ($25)</p>
+<select id="amount">
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+<option value="12">13</option>
+</select>
+<label for="amount"><p>Total: $25</p></label>
+
+    <!-- <p for="fname"> Total:</p>
+    <input type="text" id="fname" name="fname"> -->
+    <a href="#"><p>Remove</p></a>
+  </div>
+  <div class="item-description">
+    <ul>
+      <li>“Lorem ipsum dolor sit amet."</li>
+    </ul>
+  </div>
+</div>
+
+<div class="order" id="dummy">
+<div class="item-visual">
+  <img src="images/blueberry-kringle.jpg" alt="O&H Bakery Apple Kringle">
+  <p class="item-title-2">Blueberry Kringle, ($30)</p>
+  <p class="item-number">Item #: 1142</p>
+</div>
+<div class="interactions">
+  <p class="item-title">Blueberry Kringle, ($30)</p>
+<select id="amount">
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+<option value="12">13</option>
+</select>
+<label for="amount"><p>Total: $30</p></label>
+
+  <!-- <p for="fname"> Total:</p>
+  <input type="text" id="fname" name="fname"> -->
+  <a href="#">
+<input type="submit" value="Remove DUMMY" onclick="removeDummy(); "/>
+    <p>Remove</p></a>
+</div>
+<div class="item-description">
+  <ul>
+    <li>“Lorem ipsum dolor sit amet."</li>
+  </ul>
+</div>
+</div>
+  </section>
+</div>
+</div>
+</div>
+
+
+
+<!-- Cart Total Section
+  –––––––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container">
+  <div class="row">
+  <div class="one.columns">
+  <section class="cart-container">
+    <div class="cart-content">
+      <img src="images/fresh-ship.png" alt="Fresh Shipping Guaranteed">
+      <p>Product Subtoal:  $75</p>
+      <p>Estimated shipping cost:  $10</p>
+      <p>Estimated ship-to total :  $85</p>
+    </div>
+  </section>
+  </div>
+<!-- Post Cart Section -->
+<div class="bottom-checkout">
+  <a href="#">Sign In <span>& Checkout</span></a>
+  <a href="#">Checkout <span>as Guest</span></a>
+</div>
+<section class="item-container">
+<div class="item-blurb">
+<h4>Did You Know...</h4>
+<p>shipping any number of Kringle is only $9.99 per shipping address?
+    Take advantage of this program and add more Danish Delights to your cart!
+<a href="#">Some restrictions do apply</a></p>
+</div>
+<div class="item-blurb">
+<h4>Share Delicousness</h4>
+<p>You can send gifts to multiple recipients all on one order!
+    When <a href="#">adding items</a> to your cart, simply enter the name(s) that you want to ship to.
+    We will get the rest of the shipping information during the checkout process.</p>
+</div>
+</section>
+<a href="#" class="shopping-bottom">Continue Shopping</a>
+
+</div>
+</div>
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+<!-- JQuery
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script type="text/javascript" src="myscripts.js" > </script>
+
+  <script>
+
+  function removeDummy() {
+ var elem = document.getElementById('dummy');
+ elem.parentNode.removeChild(elem);
+}
+
+
+}
+  </script>
+
+  <!-- React.js
+      –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src="https://unpkg.com/react@16/umd/react.production.min.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js" crossorigin></script>
+  <script src="like_button.js"></script>
+
+</body>
+</html>
